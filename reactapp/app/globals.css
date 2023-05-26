@@ -25,3 +25,130 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.container {
+  width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.ac-container button {
+  background-color: unset;
+  border: unset;
+  box-shadow: unset;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+
+.ac-container {
+  margin-bottom: 1.5rem;
+  margin: auto;
+  display:block;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  width: 20%;
+  align-items: center;
+  
+}
+
+.btn-container {
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    color: var(--white-col);
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid var(--white-col);
+    font-family: "Rubik", sans-serif;
+    text-align: center; 
+}
+
+
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+}
+
+.button-41:hover {
+  background: #00bd68;
+}
+
+.used-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding-top: 0.5rem;
+}
+
+.used-timers h2,
+.reset button {
+  font-size: 1rem;
+  font-weight: 400;
+  white-space: nowrap;
+  color: var(--white-col);
+  font-family: "Rubik", sans-serif;
+}
+
+.used-container ul {
+  height: 50%;
+  overflow-y: scroll;
+  margin-top: 1rem;
+}
+
+.used-container ul::-webkit-scrollbar {
+  display: none;
+}
+
+.reset {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.reset button {
+  color: var(--white-col);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.reset button:hover {
+  border-color: var(--silver);
+  box-shadow: unset;
+}
+
+.used-container ul li {
+  margin-bottom: 0.3rem;
+}
+
+.used-container ul li button {
+  color: var(--white-col);
+  font-family: "Rubik", sans-serif;
+}
+
+
+

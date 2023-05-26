@@ -1,0 +1,23 @@
+.timer-container {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10rem;
+  line-height: 8rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0rem;
+  background-color: white;
+  justify-content: center;
+  }
+  
+  .timer-content {
+    background-color: #00BD68;
+    padding: 1.25rem 0 1.875rem;
+    border-radius: 0.375rem;
+    margin-bottom: 1.25rem;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  
